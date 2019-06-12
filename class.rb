@@ -1,9 +1,10 @@
-#Take if have class
-_class = "I am a class".class
-_class_two = 2019.class
+#Define class with name Example
+class Example
+    def hello
+        puts "Hello world!"
+    end
+end
+#And define New method
+_class = Example.new
 
-#Returns String in this case
-puts _class
-
-#Returns Integer in this case
-puts _class_two
+_class.hello
